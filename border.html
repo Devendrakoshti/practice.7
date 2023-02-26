@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 150px;
+            width: 150px;
+            background: blue;
+            border-radius: 40px;
+
+        }
+        .b{
+            height: 150px;
+            width: 150px;
+            background: yellow;
+            /* border-radius: 150px 0 150px 0; */
+        }
+        .c{
+            height: 150px;
+            width: 150px;
+            background: red;
+            border-radius: 0 150px 0 150px;
+        }
+        .d{
+            height: 150px;
+            width: 150px;
+            background: gold;
+            border-radius: 500px;
+        }
+        .e{
+            height: 150px;
+            width: 300px;
+            background:grey;
+            border-radius: 100%;
+        }
+        .dev *
+        {
+            color: brown;
+            border: solid;
+            display: block;
+            display: inline-block;
+            /* display: inline; */
+            padding: 20px;
+            
+        }
+        .main,div,ul,li,span{
+            border: 2px solid rebeccapurple;
+            padding: 5px;
+            display: block;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b "></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+    <div class="main">
+        <div class="gp">granparent
+            <ul>parent
+                <li>child
+                    <span>span</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="dev">
+        <div class="gp">granparent
+            <ul>parent
+                <li>child
+                    <span>span</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
